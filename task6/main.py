@@ -35,5 +35,5 @@ report = '\n'.join(reportLines)
 
 print(report)
 
-with open('analysis_log.txt', 'w', encoding='utf-8') as log:
+with open('analysis.txt', 'w', encoding='utf-8') as log:
     log.write(report)
